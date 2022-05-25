@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-TicTacTOE</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/containerKa.css">
+    <link rel="stylesheet" href="./css/gameInfoKa.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio src="./js/bgMusic.mp3" id="bgMusic"></audio>
+    <audio src="./js/chalk.mp3" id="turn"></audio>
+    <audio src="./js//gameend.mp3" id="play"></audio>
+    <!-- nav bar -->
+    <nav class="top">
+        <ul>
+            <li><img class="logo" src="./images/tic-tac-toe-png.png" alt="logo"></li>
+            <li class="logoTxt">TicTacToe</li>
+        </ul>
+    </nav>
+    <!-- game container -->
+    <div class="gameContainer">
+        <div class="container">
+            <div class="box bt-0 bl-0"><span class="boxText"></span></div>
+            <div class="box bt-0"><span class="boxText"></span></div>
+            <div class="box bt-0 br-0"><span class="boxText"></span></div>
+            <div class="box bl-0"><span class="boxText"></span></div>
+            <div class="box"><span class="boxText"></span></div>
+            <div class="box br-0"><span class="boxText"></span></div>
+            <div class="box bl-0 bb-0"><span class="boxText"></span></div>
+            <div class="box bb-0"><span class="boxText"></span></div>
+            <div class="box br-0 bb-0"><span class="boxText"></span></div>
+        </div>
+        <div class="gameInfo">
+            <div>
+                <span class="info">Turn for X</span>
+                <button id="btn">Reset</button>
+            </div>
+            <div class="imgBox">
+                <img src="./images/giphy.gif" alt="gif" >
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

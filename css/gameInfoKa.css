@@ -1,0 +1,22 @@
+.gameInfo{
+    padding: 1vw 20vw;
+}
+.info{
+    font-size: 25px;
+}
+.imgBox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+#btn{
+    margin: 0 2vw;
+    padding: 1vw 2vw;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#btn:hover{
+    cursor: pointer;
+}

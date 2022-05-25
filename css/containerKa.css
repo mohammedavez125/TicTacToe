@@ -1,0 +1,38 @@
+.gameContainer{
+    background-color: rgb(8, 8, 8);
+    border: 2px solid wheat;
+    border-radius: 15px;
+    color: white;
+    margin: 2vh 10vw 0px 10vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 5vw;
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+.box{
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    font-size: 10vw;
+    justify-content: center;
+}
+.box:hover{
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+.bt-0{
+    border-top: 0px;
+}
+.bb-0{
+    border-bottom: 0px;
+}
+.br-0{
+    border-right: 0px;
+}
+.bl-0{
+    border-left: 0px;
+}

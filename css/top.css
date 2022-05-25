@@ -1,0 +1,22 @@
+.top{
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    font-size: 150%;
+}
+.top ul{
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0vh 2vh;
+}
+.logo{
+    width: 9vh;
+    margin-left: 5vh;
+}
+.logoTxt{
+    margin-right: 10vh;
+    text-shadow: 0 0 5px red;
+}
